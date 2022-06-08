@@ -1,4 +1,4 @@
-# Harry Potter Trivia
+# Trivia Scoreboard
 
 ## Description:
 This web site is a score board for a multiplayer trivia game. Players can view the current game status as well as previous game history and player statistics.  This website was created using JavaScript and React for the front end and Node and MongoDB for the back end. This project was inspired by my family and our shared love of the Harry Potter series. Although we are located in different states, this website is one way that we can stay connected and continue our tradition of family game night.
