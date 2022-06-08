@@ -1,0 +1,179 @@
+.hogwarts-image {
+  background-image: url('./img/hogwarts.jpg');
+  background-size: cover; 
+  background-color:black;
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
+  opacity:1;
+  z-index: -999;
+  background-attachment: fixed;
+  position:fixed;
+}
+
+.fog{
+  background-image: url('./img/clouds.png');
+  position: fixed;
+  z-index: -996;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
+}
+
+@keyframes cloudLoop {   
+  0%{-webkit-transform:translate3d(0,0,0);
+      transform:translate3d(0,0,0)}
+  100%{-webkit-transform:translate3d(-50%,0,0);
+      transform:translate3d(-50%,0,0)}
+}
+
+.fog-low {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-left: -35%;
+  margin-bottom: -50px;
+  width: 110%;
+  opacity: .85;
+  z-index: -998;
+}
+  
+.fog-low img {
+  width: 100%;
+}
+  
+.fog-low.right {
+  margin-left: 30%;
+  opacity:1;
+  z-index:-997
+  
+}
+
+.card {
+  background-color: rgba(15, 15, 64, 0.7);
+  height: 17em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.historyCard {
+  background-color: rgba(15, 15, 64, 0.7);
+  padding: 10px;
+  margin: 10px;
+}
+
+body {
+  color: whitesmoke;
+  background-color: rgba(201, 6, 201, 0);
+  max-width: 100%;
+  margin:0;
+  height: 100%;
+  overflow-x:hidden;
+  overscroll-behavior-y: none;
+  /*overflow: clip;*/
+}
+
+html {
+  height: 100%;
+}
+
+.card-img-top {
+  max-width: 60%;
+  height: auto;
+}
+
+.card-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.historyCard-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.picture-frame {
+  height: 100px;
+}
+
+.champions {
+  background-color: rgba(100,100,100,0);
+}
+
+.wizButtons {
+  color: whitesmoke;
+  background-color: rgba(15, 15, 62, 0.702);
+  border-color: whitesmoke;
+}
+
+.wizButtons:hover {
+  color: whitesmoke;
+  background-color: hsla(240, 62%, 15%, 0.902);
+  border-color: whitesmoke;
+}
+.addPointsButtons {
+  color: whitesmoke;
+  background-color: rgba(15, 15, 64, 0.228);
+  border-color: whitesmoke;
+}
+
+.addPointsButtons:hover {
+  color: whitesmoke;
+  background-color: hsl(240, 61%, 15%);
+  border-color: whitesmoke;
+}
+
+#welcome {
+  font-size: 75px;
+}
+
+.points {
+  font-size: 50px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Harry P Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Harry P Regular'), url('./HARRYP__.woff') format('woff');
+  }
+
+  h1 {
+    font-family: 'Harry P Regular';
+  }
+
+  .navColor {
+    color: whitesmoke;
+ 
+  }
+
+  navColor:hover {
+    color: white;
+  }
+
+  .admin {
+    width: 20px;
+    background-color: white;
+    border: 3px;
+    border-color: white;
+  }

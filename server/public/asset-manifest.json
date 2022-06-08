@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ad9f7aa.css",
+    "main.js": "/static/js/main.d2e9dc6c.js",
+    "static/media/clouds.png": "/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "static/media/fog-low.png": "/static/media/fog-low.965eab52c95e117d1d45.png",
+    "static/media/hogwarts.jpg": "/static/media/hogwarts.21beb379aec3c63f5678.jpg",
+    "static/media/HARRYP__.woff": "/static/media/HARRYP__.976b764e0a26a75ac49b.woff",
+    "index.html": "/index.html",
+    "main.2ad9f7aa.css.map": "/static/css/main.2ad9f7aa.css.map",
+    "main.d2e9dc6c.js.map": "/static/js/main.d2e9dc6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad9f7aa.css",
+    "static/js/main.d2e9dc6c.js"
+  ]
+}
