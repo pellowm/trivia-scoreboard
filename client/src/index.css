@@ -54,7 +54,6 @@
 
 .card {
   background-color: rgba(15, 15, 64, 0.7);
-  height: 17em;
   padding: 10px;
   margin: 10px;
 }
@@ -88,14 +87,13 @@ html {
 .card-body {
   padding-top: 15px;
   padding-bottom: 15px;
-  max-height: 150px;
   margin-bottom: 20px;
 }
 
 .historyCard-body {
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .picture-frame {
@@ -156,24 +154,24 @@ code {
   font-style: normal;
   font-weight: normal;
   src: local('Harry P Regular'), url('./HARRYP__.woff') format('woff');
-  }
+}
 
-  h1 {
-    font-family: 'Harry P Regular';
-  }
+h1 {
+  font-family: 'Harry P Regular';
+}
 
-  .navColor {
-    color: whitesmoke;
- 
-  }
+.navColor {
+  color: whitesmoke;
 
-  navColor:hover {
-    color: white;
-  }
+}
 
-  .admin {
-    width: 20px;
-    background-color: white;
-    border: 3px;
-    border-color: white;
-  }
+navColor:hover {
+  color: white;
+}
+
+.admin {
+  width: 20px;
+  background-color: white;
+  border: 3px;
+  border-color: white;
+}

@@ -1,6 +1,4 @@
 import React from 'react';
-import GamesPlayed from './GamesPlayed';
-import GamesWon from './GamesWon';
 
 
 const ChampionCard = (props) => {
@@ -10,34 +8,27 @@ const ChampionCard = (props) => {
                     <div className="row g-0">
                         <div className="historyCard-body text-center">
                             <div className="row">
-                                <h2 className="card-text">{props.name}</h2>
+                                <h1 className="card-text">{props.name}</h1>
                             </div>
                             <div className="row">
-                                <h3 className="card-text">House: {props.house}</h3>
+                                <h1 className="card-text"> {props.house}</h1>
+                            </div>
+                            <div className="row my-3">
+                                <h2 className="card-text">Wins: {props.total_wins}</h2>
                             </div>
                             <div className="row">
-                                <h3 className="card-text">Total Wins: {props.total_wins}</h3>
-                            </div>
-                            <div className="row">
-                                <h4 className="card-text">Games Won: </h4>
                                 <ul>
                                     {props.games_won.map((game,j) => {
                                         return (
-                                            <GamesWon
-                                                gameDate={props.gameIdHash[props.games_won[j]]}
-                                            />
-                                        )
-                                    })}
-                                </ul>
-                            </div>
-                            <div className="row">
-                                <h4 className="card-text">Games Played: </h4>
-                                <ul>
-                                    {props.games_played.map((game,k) => {
-                                        return (
-                                            <GamesPlayed
-                                                gameDate={props.gameIdHash[props.games_played[k]]}
-                                            />                                            
+                                            <div>
+                                                <ul>
+                                                    <div className="row g-0">
+                                                        <li className="row">
+                                                            <h6 className="card-text">{props.gameIdHash[props.games_won[j]]}</h6>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
                                         )
                                     })}
                                 </ul>
